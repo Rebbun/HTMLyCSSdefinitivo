@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+}
+ul:nth-child(1) > li {
+    color: red;
+    font-size: 20px;
+}
+ul:nth-child(2) > li {
+    color: green;
+    font-size: 20px;
+}
+ul:nth-child(3) > li {
+    color: brown;
+    font-size: 20px;
+}
+ul:nth-child(1) img {
+    border: 2px solid red;
+}
+ul:nth-child(2) img {
+    border: 2px solid green;
+}
+ul:nth-child(3) img {
+    border: 2px solid brown;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+p{
+    font-size: 20px;
+}
