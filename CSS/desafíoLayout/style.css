@@ -7,23 +7,27 @@ body {
     background-color: black;
     width: 100vw;
     height: 100vh;
+    max-height: 1080px;
 }
 header {
+    width: 100vw;
+    height: 7vh;
     background-color: #c57d56;
     border: 2px dotted black;
     font-size: 18px;
+    
 }
 figure {
     display: inline-block;
 }
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 nav {
     display: inline-block;
     position: absolute;
-    top: 15px;
+    top: 10px;
     right: 0;
 
 }
@@ -36,7 +40,35 @@ li {
     height: 20px;
 }
 aside {
+    display: inline-block;
+    color: white;
     background-color: blue;
-    width: 300px;
-    height: 300px;
+    width: 285px;
+    height: 85vh;
+}
+.sidebar-figure {
+    width: 255px;
+    margin: 0 15px 0 15px;
+}
+.sidebar-content {
+    width: 255px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+div {
+    display: inline-block;
+    position: absolute;
+    background-color: gray;
+    height: 85vh;
+    width: 1635px;
+}
+p {
+    color: aliceblue;
+    display: inline-block;
+}
+footer {
+    background-color: blueviolet;
+    height: 8vh;
 }
