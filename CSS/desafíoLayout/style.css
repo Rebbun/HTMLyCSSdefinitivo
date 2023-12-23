@@ -1,41 +1,56 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    max-width: 1920px;
+    min-width: 375px;
+    max-height: 1080px;
+    min-height: 667px;
+}
 body {
     background-color: black;
     width: 100vw;
+    max-width: 1920px;
+    min-width: 375px;
     height: 100vh;
     max-height: 1080px;
+    min-height: 667px;
 }
 header {
     width: 100vw;
-    height: 7vh;
+    min-width: 375px;
+    height: 10vh;
+    max-height: 70px;
+    min-height: 50px;
     background-color: #c57d56;
     border: 2px dotted black;
-    font-size: 18px;
     
 }
-figure {
+.logo-container {
     display: inline-block;
-}
-.logo {
     width: 40px;
     height: 40px;
 }
 nav {
-    display: inline-block;
+    /* display: inline-block; */
     position: absolute;
-    top: 10px;
-    right: 0;
-
+    right: 0px;
+}
+ul {
+    display: inline-block
 }
 li {
     display: inline-block;
-    margin: 0 7px;
+    padding: 0 10px 0 10px;
+}
+.icons-container {
+    display: inline-block;
 }
 .icons {
+    display: inline-block;
     width: 20px;
     height: 20px;
 }
@@ -43,10 +58,10 @@ aside {
     display: inline-block;
     color: white;
     background-color: blue;
-    width: 285px;
+    width: 30vw;
     height: 85vh;
 }
-.sidebar-figure {
+/* .sidebar-figure {
     width: 255px;
     margin: 0 15px 0 15px;
 }
@@ -57,12 +72,14 @@ aside {
     border-radius: 10px;
     margin-top: 10px;
 }
+*/
 div {
     display: inline-block;
     position: absolute;
     background-color: gray;
     height: 85vh;
-    width: 1635px;
+    width: 70vw;
+    min-width: 300px;
 }
 p {
     color: aliceblue;
@@ -70,5 +87,5 @@ p {
 }
 footer {
     background-color: blueviolet;
-    height: 8vh;
+    height: 5vh;
 }
