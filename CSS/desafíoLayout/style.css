@@ -10,6 +10,9 @@ html {
     max-height: 1080px;
     min-height: 667px;
 }
+p {
+    color: aliceblue;
+}
 body {
     background-color: black;
     width: 100vw;
@@ -22,8 +25,7 @@ body {
 header {
     width: 100vw;
     min-width: 375px;
-    height: 10vh;
-    max-height: 70px;
+    height: 8vh;
     min-height: 50px;
     background-color: #c57d56;
     border: 2px dotted black;
@@ -34,8 +36,12 @@ header {
     width: 40px;
     height: 40px;
 }
+.logo {
+    width: 40px;
+    height: 40px;
+}
 nav {
-    /* display: inline-block; */
+    display: inline-block;
     position: absolute;
     right: 0px;
 }
@@ -58,34 +64,66 @@ aside {
     display: inline-block;
     color: white;
     background-color: blue;
-    width: 30vw;
+    width: 15vw;
+    min-width: 290px;
     height: 85vh;
+    padding-top: 25px;
 }
-/* .sidebar-figure {
+.sidebar-figure {
     width: 255px;
-    margin: 0 15px 0 15px;
+    margin: 10px 15px 0 15px;
 }
 .sidebar-content {
     width: 255px;
     height: 150px;
     display: inline-block;
     border-radius: 10px;
-    margin-top: 10px;
 }
-*/
-div {
+
+.main-content {
     display: inline-block;
     position: absolute;
     background-color: gray;
     height: 85vh;
-    width: 70vw;
+    width: 85vw;
+    max-width: 1630px;
     min-width: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
-p {
-    color: aliceblue;
-    display: inline-block;
+
+.description {
+    font-size: 20px;
 }
+
 footer {
+    position: relative;
+    align-items: center;
+    justify-content: center;
     background-color: blueviolet;
-    height: 5vh;
+    height: 7vh;
+}
+.social-media {
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 750px;
+}
+.social-icons {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+}
+#youtube {
+    background: red;
+}
+#twitter {
+    background: #1da1f2;
+}
+#github {
+    background: white;
+}
+#reddit {
+    background: orangered;
 }
