@@ -14,24 +14,35 @@ html {
     width: 100%;
     min-width: 150px;
     height: 150px;
+    font-size: 20px;
+    text-align: center;
 }
 .c4 {
     height: auto;
 }
 .c1 {
     background-color: aqua;
+    opacity: 0.8;
 }
 .c2 {
     background-color: bisque;
+    opacity: 0.8;
 }
 .c3 {
     background-color: blueviolet;
+    opacity: 0.8;
 }
 .c4 {
     background-color: chartreuse;
+    opacity: 0.8;
 }
 .c5 {
     background-color: crimson;
+    opacity: 0.8;
+}
+ figure {
+    width: 0%;
+    height: 0%;
 }
 @media (min-width: 600px) {
     .c1 {
